@@ -76,7 +76,7 @@ HTMLActuator.prototype.addTile = function (tile) {
   // We can't use classlist because it somehow glitches when replacing classes
   var classes = ["tile", "tile-" + tile.value, positionClass];
 
-  if (tile.value > 2048) classes.push("tile-super");
+  if (tile.value > 4096) classes.push("tile-super");
 
   this.applyClasses(wrapper, classes);
 
@@ -172,7 +172,7 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.setAttribute("href", "https://twitter.com/share");
   tweet.textContent = "Tweet";
 
-  var text = "" + this.score + " points in Udacity2048! http://ow.ly/vpoFS Code your own game in their new mini course http://ow.ly/vpaLY #2048game"
+  var text = "" + this.score + " points in 2048: Imperial China Edition! Check it out: http://ow.ly/wgP2R  @johnheroy #2048game"
   tweet.setAttribute("data-text", text);
 
   return tweet;

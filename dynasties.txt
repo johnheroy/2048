@@ -1,0 +1,12 @@
+2.    Qin 秦朝                               221BC-206BC
+4.    Han 汉朝                               206BC-220AD
+8.    Three Kingdoms 三国                    220-280
+16.   Jin 晋朝                               265-420
+32.   Southern and Northern Dynasties 南北朝 420-589
+64.   Sui 隋朝                               581-618
+128.  Tang 唐朝                              618-907
+256.  Five Dynasties and Ten States 五代十国  907-960
+512.  Song 宋朝                              960-1279
+1024. Yuan 元超                              1271-1368
+2048. Ming 明朝                              1368-1644
+4096. Qing 清朝                              1644-1911
