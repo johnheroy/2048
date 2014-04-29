@@ -663,6 +663,10 @@ hr {
     width: 50%;
   }
 
+  th, td {
+    font-size: 12px;
+  }
+
   .container {
     width: 280px;
     margin: 0 auto; }
