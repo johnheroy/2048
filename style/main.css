@@ -22,9 +22,16 @@ span.tile-text {
 
 table {
   font-size: 16px;
+  width: 100%;
 }
 
+table, th, td {
+  border: 1px solid white;
+}
 
+th {
+  text-align: left;
+}
 
 input {
   display: inline-block;
